@@ -1,10 +1,6 @@
 source 'https://rubygems.org'
 
 # These gems are in the :default group
-gem 'sinatra'
-
-# Group created to perform tests
-group :test do
-  gem 'rake'
-  gem 'rspec'
-end
+gem 'bundler'
+gem 'rspec'
+gem 'rake'
